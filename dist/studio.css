@@ -172,7 +172,7 @@ footer a { white-space: nowrap; }
   .glossary-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 760px) {
-  .top-inner { display: grid; grid-template-columns: 1fr auto; padding-top: .65rem; gap: .35rem .4rem; }
+  .top-inner { display: grid; grid-template-columns: minmax(0, 1fr) auto; padding-top: .65rem; gap: .35rem .4rem; }
   .top-end { grid-column: 2; grid-row: 1; gap: .55rem; }
   .top-nav { grid-column: 1 / -1; justify-content: flex-start; gap: 1.4rem; }
   .top-nav a { min-height: 2.25rem; }
@@ -190,8 +190,8 @@ footer a { white-space: nowrap; }
   main, .correction { scroll-margin-top: 6.8rem; }
 }
 @media (max-width: 480px) {
-  .brand { gap: .4rem; font-size: .92rem; }
-  .brand-mark { padding: 5px; }
+  .brand { gap: .4rem; font-size: .92rem; line-height: 1.15; white-space: normal; }
+  .brand-mark { padding: 5px; flex-shrink: 0; }
   .top-score { font-size: .71rem; }
   .language button { padding-inline: .35rem; }
   .shell { padding-inline: .75rem; }
