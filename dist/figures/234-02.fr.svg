@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="680.3" viewBox="0 0 1120 680.3" xml:lang="fr" role="img" aria-labelledby="title description">
+<title id="title">Jour 58 · Observer les workflows d’agents LLM</title>
+<desc id="description">Un log global n’indique pas quelle étape rend l’exécution lente, coûteuse ou erronée.. Demande de support. Agent NestJS. Appels LLM. Appels d’outils. Index de recherche. Un seul log HTTP 200 par exécution. A. Traçage distribué par span. B. Évaluations par un LLM juge. C. Tableau de coûts et alertes. D. Tracer chaque prompt dans le middleware</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="680.3" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#75e1f7" font-size="14" font-weight="750"><tspan x="38" y="29">JOUR 58 · SCÉNARIO</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">Observer les workflows d’agents LLM</tspan></text>
+<text fill="#38576b" font-size="17" font-weight="520"><tspan x="42" y="134">Un log global n’indique pas quelle étape rend l’exécution lente, coûteuse ou erronée.</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M275 336.3C293.5 336.3 293.5 336.3 312 336.3"/>
+<path d="M539 336.3C557.5 336.3 557.5 224.3 576 224.3"/>
+<path d="M539 336.3C557.5 336.3 557.5 336.3 576 336.3"/>
+<path d="M539 336.3C557.5 336.3 557.5 448.3 576 448.3"/>
+<path d="M803 224.3C821.5 224.3 821.5 336.3 840 336.3"/>
+<path d="M803 336.3C821.5 336.3 821.5 336.3 840 336.3"/>
+<path d="M803 448.3C821.5 448.3 821.5 336.3 840 336.3"/></g>
+
+<rect x="53" y="288.3" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(150 298.3)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="356.3">Demande de support</tspan></text>
+<rect x="317" y="288.3" width="222" height="96" rx="12" fill="#f2ecf8" stroke="#a286bb"/>
+<g transform="translate(414 298.3)" fill="none" stroke="#785297" color="#785297" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="20" height="15" rx="4"/><path d="M14 8V3m-4 12h1m6 0h1m-8 4h8"/><circle cx="14" cy="3" r="1"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="428" y="356.3">Agent NestJS</tspan></text>
+<rect x="581" y="176.3" width="222" height="96" rx="12" fill="#f2ecf8" stroke="#a286bb"/>
+<g transform="translate(678 186.3)" fill="none" stroke="#785297" color="#785297" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="20" height="15" rx="4"/><path d="M14 8V3m-4 12h1m6 0h1m-8 4h8"/><circle cx="14" cy="3" r="1"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="244.3">Appels LLM</tspan></text>
+<rect x="581" y="288.3" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(678 298.3)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="356.3">Appels d’outils</tspan></text>
+<rect x="581" y="400.3" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(678 410.3)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="468.3">Index de recherche</tspan></text>
+<rect x="845" y="288.3" width="222" height="96" rx="12" fill="#fbebea" stroke="#c58a86"/>
+<g transform="translate(942 298.3)" fill="none" stroke="#9e4a43" color="#9e4a43" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3 26 25H2Z M14 11v6m0 4v.3"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="346.3">Un seul log HTTP 200</tspan><tspan x="956" y="366.3">par exécution</tspan></text>
+<rect x="38" y="524.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="540.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="561.3">A</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="560.3">Traçage distribué par span</tspan></text>
+<rect x="567" y="524.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="540.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="561.3">B</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="560.3">Évaluations par un LLM juge</tspan></text>
+<rect x="38" y="593.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="609.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="630.3">C</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="629.3">Tableau de coûts et alertes</tspan></text>
+<rect x="567" y="593.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="609.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="630.3">D</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="629.3">Tracer chaque prompt dans le middleware</tspan></text>
+</g>
+</svg>

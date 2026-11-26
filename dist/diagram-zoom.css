@@ -1,0 +1,67 @@
+.diagram-frame { position: relative; }
+.diagram-zoom-button {
+  display: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  place-items: center;
+  border: 1px solid #5b7b90;
+  border-radius: .45rem;
+  color: #f0fafa;
+  background: #172e40;
+  cursor: pointer;
+}
+.diagram-zoom-enabled .diagram-zoom-button { display: grid; }
+.diagram-frame > .diagram-zoom-button {
+  position: absolute;
+  inset-block-start: .4rem;
+  inset-inline-end: .5rem;
+}
+.diagram-zoom-button:hover { background: #264c65; }
+.diagram-zoom-button:focus-visible { outline: 2px solid #60daf6; outline-offset: 2px; }
+.diagram-zoom-button::before {
+  content: "";
+  width: 1.25rem;
+  height: 1.25rem;
+  background: currentColor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 3H3v5m13-5h5v5m0 8v5h-5M3 16v5h5' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+.diagram-zoom-restore::before {
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 9h6V3m12 6h-6V3M3 15h6v6m12-6h-6v6' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+html:has(.diagram-zoom-dialog[open]) { overflow: hidden; }
+.diagram-zoom-dialog {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: #0b1520;
+  overflow: hidden;
+}
+.diagram-zoom-dialog[open] { display: grid; grid-template-rows: auto minmax(0, 1fr); }
+.diagram-zoom-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: .5rem clamp(.65rem, 2vw, 1.4rem);
+}
+.diagram-zoom-canvas {
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 0 clamp(.65rem, 2vw, 1.4rem) 1rem;
+}
+.diagram-zoom-canvas img {
+  display: block;
+  width: 100%;
+  min-width: 920px;
+  max-width: 1600px;
+  height: auto;
+  margin-inline: auto;
+}
+@media print {
+  .diagram-zoom-enabled .diagram-zoom-button, .diagram-zoom-dialog[open] { display: none; }
+}

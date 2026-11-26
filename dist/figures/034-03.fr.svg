@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="516" viewBox="0 0 1120 516" xml:lang="fr" role="img" aria-labelledby="title description">
+<title id="title">Jour 08 · C · Cache-aside</title>
+<desc id="description">Écriture. Service d’écriture. Mettre à jour PostgreSQL. Supprimer la clé Redis. Lecture après invalidation. Service de lecture. Lire la ligne PostgreSQL. Remplir Redis. PostgreSQL fait foi. Redis accélère les lectures suivantes.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="516" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">JOUR 08 · CORRIGÉ</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">C · Cache-aside</tspan></text>
+<text fill="#226e57" font-size="16" font-weight="720"><tspan x="38" y="142">Écriture</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M407 204C425.5 204 425.5 204 444 204"/>
+<path d="M671 204C689.5 204 689.5 204 708 204"/></g>
+
+<rect x="185" y="156" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(282 166)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="296" y="224">Service d’écriture</tspan></text>
+<rect x="449" y="156" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(546 166)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="214">Mettre à jour</tspan><tspan x="560" y="234">PostgreSQL</tspan></text>
+<rect x="713" y="156" width="222" height="96" rx="12" fill="#fbf2d9" stroke="#b49752"/>
+<g transform="translate(810 166)" fill="none" stroke="#8b6426" color="#8b6426" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6l3 15c1 5 13 5 14 0l3-15M10 16h8"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="824" y="224">Supprimer la clé Redis</tspan></text>
+<text fill="#226e57" font-size="16" font-weight="720"><tspan x="38" y="291">Lecture après invalidation</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M407 353C425.5 353 425.5 353 444 353"/>
+<path d="M671 353C689.5 353 689.5 353 708 353"/></g>
+
+<rect x="185" y="305" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(282 315)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="296" y="373">Service de lecture</tspan></text>
+<rect x="449" y="305" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(546 315)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="363">Lire la ligne</tspan><tspan x="560" y="383">PostgreSQL</tspan></text>
+<rect x="713" y="305" width="222" height="96" rx="12" fill="#fbf2d9" stroke="#b49752"/>
+<g transform="translate(810 315)" fill="none" stroke="#8b6426" color="#8b6426" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6l3 15c1 5 13 5 14 0l3-15M10 16h8"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="824" y="373">Remplir Redis</tspan></text>
+<rect x="38" y="429" width="1044" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="460" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="465">PostgreSQL fait foi. Redis accélère les lectures suivantes.</tspan></text>
+</g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="680.3" viewBox="0 0 1120 680.3" xml:lang="fr" role="img" aria-labelledby="title description">
+<title id="title">Jour 32 · Gérer les secrets et les identifiants</title>
+<desc id="description">Les identifiants de base, clés API et tokens de service doivent être stockés et renouvelés.. Services applicatifs. Variables d’environnement. Configuration de build ou de déploiement. Mot de passe de base. Clés de l’API de paiement. Tokens de service. A. AWS Secrets Manager. B. HashiCorp Vault. C. Variables d’environnement via CI/CD. D. KMS et base interne</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="680.3" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#75e1f7" font-size="14" font-weight="750"><tspan x="38" y="29">JOUR 32 · SCÉNARIO</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">Gérer les secrets et les identifiants</tspan></text>
+<text fill="#38576b" font-size="17" font-weight="520"><tspan x="42" y="134">Les identifiants de base, clés API et tokens de service doivent être stockés et renouvelés.</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M407 336.3C425.5 336.3 425.5 280.3 444 280.3"/>
+<path d="M407 336.3C425.5 336.3 425.5 392.3 444 392.3"/>
+<path d="M671 280.3C689.5 280.3 689.5 224.3 708 224.3"/>
+<path d="M671 280.3C689.5 280.3 689.5 336.3 708 336.3"/>
+<path d="M671 392.3C689.5 392.3 689.5 448.3 708 448.3"/></g>
+
+<rect x="185" y="288.3" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(282 298.3)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="296" y="356.3">Services applicatifs</tspan></text>
+<rect x="449" y="232.3" width="222" height="96" rx="12" fill="#fbebea" stroke="#c58a86"/>
+<g transform="translate(546 242.3)" fill="none" stroke="#9e4a43" color="#9e4a43" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3 26 25H2Z M14 11v6m0 4v.3"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="290.3">Variables</tspan><tspan x="560" y="310.3">d’environnement</tspan></text>
+<rect x="449" y="344.3" width="222" height="96" rx="12" fill="#fbebea" stroke="#c58a86"/>
+<g transform="translate(546 354.3)" fill="none" stroke="#9e4a43" color="#9e4a43" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3 26 25H2Z M14 11v6m0 4v.3"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="402.3">Configuration de build</tspan><tspan x="560" y="422.3">ou de déploiement</tspan></text>
+<rect x="713" y="176.3" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(810 186.3)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="824" y="244.3">Mot de passe de base</tspan></text>
+<rect x="713" y="288.3" width="222" height="96" rx="12" fill="#e7f4f6" stroke="#79a5b5"/>
+<g transform="translate(810 298.3)" fill="none" stroke="#317484" color="#317484" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M7 22a5 5 0 0 1-1-10 8 8 0 0 1 15-2 6 6 0 0 1 0 12Z"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="824" y="346.3">Clés de l’API de</tspan><tspan x="824" y="366.3">paiement</tspan></text>
+<rect x="713" y="400.3" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(810 410.3)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="824" y="468.3">Tokens de service</tspan></text>
+<rect x="38" y="524.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="540.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="561.3">A</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="560.3">AWS Secrets Manager</tspan></text>
+<rect x="567" y="524.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="540.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="561.3">B</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="560.3">HashiCorp Vault</tspan></text>
+<rect x="38" y="593.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="609.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="630.3">C</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="629.3">Variables d’environnement via CI/CD</tspan></text>
+<rect x="567" y="593.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="609.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="630.3">D</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="629.3">KMS et base interne</tspan></text>
+</g>
+</svg>

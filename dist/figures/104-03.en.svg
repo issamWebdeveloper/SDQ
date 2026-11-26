@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="516" viewBox="0 0 1120 516" xml:lang="en" role="img" aria-labelledby="title description">
+<title id="title">Day 25 · C · Rate-limit the producer</title>
+<desc id="description">User-facing checkout. Submit order. Order service. Commit and acknowledge. Throttled background path. Read committed events. Rate limiter. Amazon SQS. Consumers. Downstream DB. Throttle the emitter after the user’s write has been confirmed.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="516" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">DAY 25 · ANSWER</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">C · Rate-limit the producer</tspan></text>
+<text fill="#226e57" font-size="16" font-weight="720"><tspan x="38" y="142">User-facing checkout</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M407 204C425.5 204 425.5 204 444 204"/>
+<path d="M671 204C689.5 204 689.5 204 708 204"/></g>
+
+<rect x="185" y="156" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(282 166)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="296" y="224">Submit order</tspan></text>
+<rect x="449" y="156" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(546 166)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="224">Order service</tspan></text>
+<rect x="713" y="156" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(810 166)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="824" y="214">Commit and</tspan><tspan x="824" y="234">acknowledge</tspan></text>
+<text fill="#226e57" font-size="16" font-weight="720"><tspan x="38" y="291">Throttled background path</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M213.5 353C232 353 232 353 250.5 353"/>
+<path d="M430.5 353C449 353 449 353 467.5 353"/>
+<path d="M647.5 353C666 353 666 353 684.5 353"/>
+<path d="M864.5 353C883 353 883 353 901.5 353"/></g>
+
+<rect x="38.5" y="305" width="175" height="96" rx="12" fill="#f8f0dc" stroke="#b59a5b"/>
+<g transform="translate(112 315)" fill="none" stroke="#86601c" color="#86601c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2 5 16h8l-1 10 11-15h-8Z"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="126" y="353">Read committed</tspan><tspan x="126" y="373">events</tspan><tspan x="126" y="393"></tspan></text>
+<rect x="255.5" y="305" width="175" height="96" rx="12" fill="#e9f3fa" stroke="#6299aa"/>
+<g transform="translate(329 315)" fill="none" stroke="#24677c" color="#24677c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2l12 12-12 12L2 14Z M7 14h13m-4-4 4 4-4 4"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="343" y="373">Rate limiter</tspan></text>
+<rect x="472.5" y="305" width="175" height="96" rx="12" fill="#f0edfa" stroke="#9a86bd"/>
+<g transform="translate(546 315)" fill="none" stroke="#67509d" color="#67509d" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="6" height="14" rx="1"/><rect x="11" y="7" width="6" height="14" rx="1"/><rect x="20" y="7" width="6" height="14" rx="1"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="373">Amazon SQS</tspan></text>
+<rect x="689.5" y="305" width="175" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(763 315)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="777" y="373">Consumers</tspan></text>
+<rect x="906.5" y="305" width="175" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(980 315)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="994" y="373">Downstream DB</tspan></text>
+<rect x="38" y="429" width="1044" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="460" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="465">Throttle the emitter after the user’s write has been confirmed.</tspan></text>
+</g>
+</svg>

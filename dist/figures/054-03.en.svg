@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="454" viewBox="0 0 1120 454" xml:lang="en" role="img" aria-labelledby="title description">
+<title id="title">Day 13 · B · Pools by workload</title>
+<desc id="description">REST API and Lambda. Analytics workers. Transaction pool. Session pool. PostgreSQL RDS · 300 connections. Short transactions share connections between transactions.. Analytics workers keep the same connection for their session.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="454" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">DAY 13 · ANSWER</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">B · Pools by workload</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M407 179C425.5 179 425.5 179 444 179"/>
+<path d="M407 291C425.5 291 425.5 291 444 291"/>
+<path d="M671 179C689.5 179 689.5 235 708 235"/>
+<path d="M671 291C689.5 291 689.5 235 708 235"/></g>
+
+<rect x="185" y="131" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(282 141)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="296" y="199">REST API and Lambda</tspan></text>
+<rect x="185" y="243" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(282 253)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="296" y="311">Analytics workers</tspan></text>
+<rect x="449" y="131" width="222" height="96" rx="12" fill="#e9f3fa" stroke="#6299aa"/>
+<g transform="translate(546 141)" fill="none" stroke="#24677c" color="#24677c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2l12 12-12 12L2 14Z M7 14h13m-4-4 4 4-4 4"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="189">Transaction pool</tspan><tspan x="560" y="209"></tspan></text>
+<rect x="449" y="243" width="222" height="96" rx="12" fill="#e9f3fa" stroke="#6299aa"/>
+<g transform="translate(546 253)" fill="none" stroke="#24677c" color="#24677c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2l12 12-12 12L2 14Z M7 14h13m-4-4 4 4-4 4"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="311">Session pool</tspan></text>
+<rect x="713" y="187" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(810 197)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="824" y="245">PostgreSQL RDS · 300</tspan><tspan x="824" y="265">connections</tspan></text>
+<rect x="38" y="367" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="398" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="393">Short transactions share connections between</tspan><tspan x="67" y="413">transactions.</tspan></text>
+<rect x="567" y="367" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="583" cy="398" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="596" y="393">Analytics workers keep the same connection for their</tspan><tspan x="596" y="413">session.</tspan></text>
+</g>
+</svg>

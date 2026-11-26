@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="568.3" viewBox="0 0 1120 568.3" xml:lang="fr" role="img" aria-labelledby="title description">
+<title id="title">Jour 04 · Éviter les doubles prélèvements</title>
+<desc id="description">Des requêtes identiques peuvent déclencher plusieurs prélèvements.. Le client renvoie POST /payments. Passerelle API. Service de paiement. Stripe. Base des paiements. A. Contrainte d’unicité. B. En-tête Idempotency-Key. C. Verrou distribué. D. Isolation sérialisable</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="568.3" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#75e1f7" font-size="14" font-weight="750"><tspan x="38" y="29">JOUR 04 · SCÉNARIO</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">Éviter les doubles prélèvements</tspan></text>
+<text fill="#38576b" font-size="17" font-weight="520"><tspan x="42" y="134">Des requêtes identiques peuvent déclencher plusieurs prélèvements.</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M275 280.3C293.5 280.3 293.5 280.3 312 280.3"/>
+<path d="M539 280.3C557.5 280.3 557.5 280.3 576 280.3"/>
+<path d="M803 280.3C821.5 280.3 821.5 224.3 840 224.3"/>
+<path d="M803 280.3C821.5 280.3 821.5 336.3 840 336.3"/></g>
+
+<rect x="53" y="232.3" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(150 242.3)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="14" height="24" rx="3"/><path d="M12 5h4m-3 18h2"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="290.3">Le client renvoie POST</tspan><tspan x="164" y="310.3">/payments</tspan></text>
+<rect x="317" y="232.3" width="222" height="96" rx="12" fill="#e9f3fa" stroke="#6299aa"/>
+<g transform="translate(414 242.3)" fill="none" stroke="#24677c" color="#24677c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2l12 12-12 12L2 14Z M7 14h13m-4-4 4 4-4 4"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="428" y="300.3">Passerelle API</tspan></text>
+<rect x="581" y="232.3" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(678 242.3)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="300.3">Service de paiement</tspan></text>
+<rect x="845" y="176.3" width="222" height="96" rx="12" fill="#e7f4f6" stroke="#79a5b5"/>
+<g transform="translate(942 186.3)" fill="none" stroke="#317484" color="#317484" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M7 22a5 5 0 0 1-1-10 8 8 0 0 1 15-2 6 6 0 0 1 0 12Z"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="244.3">Stripe</tspan></text>
+<rect x="845" y="288.3" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(942 298.3)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="356.3">Base des paiements</tspan></text>
+<rect x="38" y="412.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="428.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="449.3">A</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="448.3">Contrainte d’unicité</tspan></text>
+<rect x="567" y="412.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="428.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="449.3">B</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="448.3">En-tête Idempotency-Key</tspan></text>
+<rect x="38" y="481.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="497.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="518.3">C</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="517.3">Verrou distribué</tspan></text>
+<rect x="567" y="481.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="497.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="518.3">D</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="517.3">Isolation sérialisable</tspan></text>
+</g>
+</svg>

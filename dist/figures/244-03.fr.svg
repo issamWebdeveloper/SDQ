@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="719" viewBox="0 0 1120 719" xml:lang="fr" role="img" aria-labelledby="title description">
+<title id="title">Jour 60 · B · Monolithe modulaire</title>
+<desc id="description">Modules de l’application. Clients. Répartiteur de charge. Module d’authentification. Module de facturation. Module métier. Module d’inférence. Déploiement unique · tables par module. Faire respecter les frontières entre modules dans une application déployable en un bloc.. Extraire un service quand le besoin d’évoluer ou d’être exploité indépendamment est établi.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="719" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">JOUR 60 · CORRIGÉ</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">B · Monolithe modulaire</tspan></text>
+<rect x="572" y="134" width="240" height="470" rx="13" fill="#e6f0f4" stroke="#9cb6c5"/>
+<text fill="#376076" font-size="14" font-weight="600" text-anchor="middle"><tspan x="692" y="154">Modules de l’application</tspan></text>
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M275 379C293.5 379 293.5 379 312 379"/>
+<path d="M539 379C557.5 379 557.5 211 576 211"/>
+<path d="M539 379C557.5 379 557.5 323 576 323"/>
+<path d="M539 379C557.5 379 557.5 435 576 435"/>
+<path d="M539 379C557.5 379 557.5 547 576 547"/>
+<path d="M803 211C821.5 211 821.5 379 840 379"/>
+<path d="M803 323C821.5 323 821.5 379 840 379"/>
+<path d="M803 435C821.5 435 821.5 379 840 379"/>
+<path d="M803 547C821.5 547 821.5 379 840 379"/></g>
+
+<rect x="53" y="331" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(150 341)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="399">Clients</tspan></text>
+<rect x="317" y="331" width="222" height="96" rx="12" fill="#e9f3fa" stroke="#6299aa"/>
+<g transform="translate(414 341)" fill="none" stroke="#24677c" color="#24677c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2l12 12-12 12L2 14Z M7 14h13m-4-4 4 4-4 4"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="428" y="399">Répartiteur de charge</tspan></text>
+<rect x="581" y="163" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(678 173)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="221">Module</tspan><tspan x="692" y="241">d’authentification</tspan></text>
+<rect x="581" y="275" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(678 285)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="343">Module de facturation</tspan></text>
+<rect x="581" y="387" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(678 397)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="455">Module métier</tspan></text>
+<rect x="581" y="499" width="222" height="96" rx="12" fill="#f2ecf8" stroke="#a286bb"/>
+<g transform="translate(678 509)" fill="none" stroke="#785297" color="#785297" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="20" height="15" rx="4"/><path d="M14 8V3m-4 12h1m6 0h1m-8 4h8"/><circle cx="14" cy="3" r="1"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="567">Module d’inférence</tspan></text>
+<rect x="845" y="331" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(942 341)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="389">Déploiement unique ·</tspan><tspan x="956" y="409">tables par module</tspan></text>
+<rect x="38" y="632" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="663" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="658">Faire respecter les frontières entre modules dans une</tspan><tspan x="67" y="678">application déployable en un bloc.</tspan></text>
+<rect x="567" y="632" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="583" cy="663" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="596" y="658">Extraire un service quand le besoin d’évoluer ou d’être</tspan><tspan x="596" y="678">exploité indépendamment est établi.</tspan></text>
+</g>
+</svg>

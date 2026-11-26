@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="635.9" viewBox="0 0 1120 635.9" xml:lang="fr" role="img" aria-labelledby="title description">
+<title id="title">Jour 44 · Synchroniser les modifications hors ligne sans perdre de données</title>
+<desc id="description">Des modifications concurrentes peuvent être écrasées, et un ancien schéma local peut bloquer la synchronisation.. Appareil terrain hors ligne. Collègue qui modifie en ligne. Local IndexedDB. Édition en ligne. Synchronisation groupée à la reconnexion. Base serveur. Conflits et écarts de schéma. A. localStorage et diff JSON. B. IndexedDB et horloges vectorielles. C. Migrations versionnées d’IndexedDB. D. Moteur de synchronisation CRDT</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="635.9" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="147.3" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#75e1f7" font-size="14" font-weight="750"><tspan x="38" y="29">JOUR 44 · SCÉNARIO</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">Synchroniser les modifications hors ligne sans</tspan><tspan x="38" y="122.3">perdre de données</tspan></text>
+<text fill="#38576b" font-size="17" font-weight="520"><tspan x="42" y="180.3">Des modifications concurrentes peuvent être écrasées, et un ancien schéma local peut bloquer la</tspan><tspan x="42" y="201.6">synchronisation.</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M275 291.9C293.5 291.9 293.5 291.9 312 291.9"/>
+<path d="M275 403.9C293.5 403.9 293.5 403.9 312 403.9"/>
+<path d="M539 291.9C557.5 291.9 557.5 291.9 576 291.9"/>
+<path d="M539 403.9C557.5 403.9 557.5 403.9 576 403.9"/>
+<path d="M692 339.9V350.9"/>
+<path d="M803 403.9C821.5 403.9 821.5 347.9 840 347.9"/></g>
+
+<rect x="53" y="243.9" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(150 253.9)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="14" height="24" rx="3"/><path d="M12 5h4m-3 18h2"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="301.9">Appareil terrain hors</tspan><tspan x="164" y="321.9">ligne</tspan></text>
+<rect x="53" y="355.9" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(150 365.9)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="413.9">Collègue qui modifie en</tspan><tspan x="164" y="433.9">ligne</tspan></text>
+<rect x="317" y="243.9" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(414 253.9)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="428" y="311.9">Local IndexedDB</tspan></text>
+<rect x="317" y="355.9" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(414 365.9)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="428" y="423.9">Édition en ligne</tspan></text>
+<rect x="581" y="243.9" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(678 253.9)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="291.9">Synchronisation</tspan><tspan x="692" y="311.9">groupée à la</tspan><tspan x="692" y="331.9">reconnexion</tspan></text>
+<rect x="581" y="355.9" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(678 365.9)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="423.9">Base serveur</tspan></text>
+<rect x="845" y="299.9" width="222" height="96" rx="12" fill="#fbebea" stroke="#c58a86"/>
+<g transform="translate(942 309.9)" fill="none" stroke="#9e4a43" color="#9e4a43" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3 26 25H2Z M14 11v6m0 4v.3"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="357.9">Conflits et écarts de</tspan><tspan x="956" y="377.9">schéma</tspan></text>
+<rect x="38" y="479.9" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="495.9" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="516.9">A</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="515.9">localStorage et diff JSON</tspan></text>
+<rect x="567" y="479.9" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="495.9" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="516.9">B</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="515.9">IndexedDB et horloges vectorielles</tspan></text>
+<rect x="38" y="548.9" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="564.9" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="585.9">C</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="584.9">Migrations versionnées d’IndexedDB</tspan></text>
+<rect x="567" y="548.9" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="564.9" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="585.9">D</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="584.9">Moteur de synchronisation CRDT</tspan></text>
+</g>
+</svg>

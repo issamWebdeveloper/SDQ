@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="454" viewBox="0 0 1120 454" xml:lang="en" role="img" aria-labelledby="title description">
+<title id="title">Day 11 · C · Verify, enqueue and acknowledge</title>
+<desc id="description">Stripe. Verify HMAC. Durable internal queue. Idempotent worker. Orders DB. Notifications. Acknowledge with HTTP 200 as soon as the event is safely queued.. Deduplicate by event ID and check the current order state before updating it.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="454" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">DAY 11 · ANSWER</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">C · Verify, enqueue and acknowledge</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M213.5 235C232 235 232 235 250.5 235"/>
+<path d="M430.5 235C449 235 449 235 467.5 235"/>
+<path d="M647.5 235C666 235 666 235 684.5 235"/>
+<path d="M864.5 235C883 235 883 179 901.5 179"/>
+<path d="M864.5 235C883 235 883 291 901.5 291"/></g>
+
+<rect x="38.5" y="187" width="175" height="96" rx="12" fill="#e7f4f6" stroke="#79a5b5"/>
+<g transform="translate(112 197)" fill="none" stroke="#317484" color="#317484" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M7 22a5 5 0 0 1-1-10 8 8 0 0 1 15-2 6 6 0 0 1 0 12Z"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="126" y="255">Stripe</tspan></text>
+<rect x="255.5" y="187" width="175" height="96" rx="12" fill="#e9f3fa" stroke="#6299aa"/>
+<g transform="translate(329 197)" fill="none" stroke="#24677c" color="#24677c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2l12 12-12 12L2 14Z M7 14h13m-4-4 4 4-4 4"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="343" y="255">Verify HMAC</tspan></text>
+<rect x="472.5" y="187" width="175" height="96" rx="12" fill="#f0edfa" stroke="#9a86bd"/>
+<g transform="translate(546 197)" fill="none" stroke="#67509d" color="#67509d" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="6" height="14" rx="1"/><rect x="11" y="7" width="6" height="14" rx="1"/><rect x="20" y="7" width="6" height="14" rx="1"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="245">Durable internal</tspan><tspan x="560" y="265">queue</tspan></text>
+<rect x="689.5" y="187" width="175" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(763 197)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="777" y="245">Idempotent</tspan><tspan x="777" y="265">worker</tspan></text>
+<rect x="906.5" y="131" width="175" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(980 141)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="994" y="189">Orders DB</tspan><tspan x="994" y="209"></tspan></text>
+<rect x="906.5" y="243" width="175" height="96" rx="12" fill="#f8f0dc" stroke="#b59a5b"/>
+<g transform="translate(980 253)" fill="none" stroke="#86601c" color="#86601c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2 5 16h8l-1 10 11-15h-8Z"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="994" y="311">Notifications</tspan></text>
+<rect x="38" y="367" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="398" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="393">Acknowledge with HTTP 200 as soon as the event is</tspan><tspan x="67" y="413">safely queued.</tspan></text>
+<rect x="567" y="367" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="583" cy="398" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="596" y="393">Deduplicate by event ID and check the current order</tspan><tspan x="596" y="413">state before updating it.</tspan></text>
+</g>
+</svg>

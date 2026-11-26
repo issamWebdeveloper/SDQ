@@ -30,9 +30,8 @@ a:focus-visible, summary:focus-visible { outline: 2px solid #0c738e; outline-off
 details { margin: .9rem 0; border: 1px solid #b5cbd8; border-radius: .45rem; }
 details > summary { cursor: pointer; padding: .65rem .85rem; font-weight: 680; }
 details[open] > summary { background: #e9f3f6; border-radius: .45rem .45rem 0 0; }
-.book-figure img { width: 100%; height: auto; display: block; }
-.book-figure p { padding-left: .85rem; }
-.book-figure ul { padding-right: .8rem; }
+.book-figure-viewport { overflow-x: auto; }
+.book-figure img { width: 100%; min-width: 720px; height: auto; display: block; }
 .book-correction > p, .book-correction > section, .book-correction > .book-figure, .book-correction > ol { margin: .75rem .85rem; }
 .book-correction > section { border-top: 1px solid #d3e1e8; padding-top: .75rem; }
 .book-answer { font-weight: 700; }
