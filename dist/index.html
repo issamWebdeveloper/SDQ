@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="60 questions de conception de systèmes, avec corrections, glossaire et suivi des résultats.">
+  <meta name="color-scheme" content="dark">
+  <title>System Design Studio</title>
+  <link rel="stylesheet" href="studio.css">
+  <script src="book-data.js" defer></script>
+  <script src="glossary-data.js" defer></script>
+  <script src="studio.js" defer></script>
+</head>
+<body>
+  <a class="skip" id="skip" href="#main">Aller au contenu</a>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="#jour-01" aria-label="System Design Studio">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span>System Design <b>Studio</b></span>
+      </a>
+      <nav class="top-nav" aria-label="Navigation principale">
+        <a href="#questions" id="nav-questions">Questions</a>
+        <a href="#resultats" id="nav-results">Résultats</a>
+        <a href="#glossaire" id="nav-glossary">Glossaire</a>
+      </nav>
+      <div class="top-end">
+        <span id="top-score" class="top-score" aria-live="polite"></span>
+        <div class="language" aria-label="Language / Langue">
+          <button type="button" data-language="en" lang="en" aria-label="English">EN</button>
+          <button type="button" data-language="fr" lang="fr" aria-label="Français">FR</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="shell">
+    <section id="progress" class="progress" aria-label="Progression"></section>
+    <div class="layout" id="layout">
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-head">
+          <div class="sidebar-title"><h2 id="index-title">Index des questions</h2><span id="index-count"></span></div>
+          <label class="search">
+            <span aria-hidden="true"></span>
+            <input id="question-search" type="search" autocomplete="off" placeholder="Chercher une question" aria-label="Chercher une question">
+          </label>
+          <select id="topic-filter" aria-label="Filtrer par thème"></select>
+        </div>
+        <nav class="question-index" id="question-index" aria-label="Index des questions"></nav>
+      </aside>
+      <main id="main" tabindex="-1"></main>
+    </div>
+    <footer id="footer"></footer>
+  </div>
+  <div id="term-popup" class="term-popup" role="region" hidden></div>
+  <noscript>Activez JavaScript pour utiliser ce cahier interactif. / Enable JavaScript to use this interactive workbook.</noscript>
+</body>
+</html>

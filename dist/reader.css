@@ -1,0 +1,49 @@
+:root {
+  color-scheme: light;
+  color: #1d2d40;
+  background: #eaf0f3;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+}
+* { box-sizing: border-box; }
+body { max-width: 54rem; margin: 0 auto; padding: 2rem clamp(.8rem, 4vw, 2rem); line-height: 1.62; }
+a { color: #075a75; text-underline-offset: .16em; }
+a:focus-visible, summary:focus-visible { outline: 2px solid #0c738e; outline-offset: 4px; }
+.book-cover, .book-toc, .chapter { padding: clamp(1rem, 4vw, 2.1rem); border: 1px solid #bcccd6; border-radius: .7rem; margin-bottom: 1.15rem; background: #fff; }
+.book-cover { background: #102638; color: #f1f8fd; border-color: #284052; }
+.book-cover a { color: #6eddf5; }
+.kicker { color: #087089; font: 700 .86rem ui-monospace, monospace; }
+.book-cover .kicker, .book-cover .book-muted { color: #b0cbdc; }
+.book-cover h1 { font-size: clamp(1.9rem, 6vw, 3.15rem); letter-spacing: -.05em; line-height: 1.12; margin: .5rem 0; }
+.book-author { font-weight: 700; }
+.book-muted, .reader-link { font-size: .9rem; }
+.book-muted { color: #475e71; }
+.book-toc h2 { margin-top: 0; }
+.book-toc li { padding: .22rem 0; break-inside: avoid; }
+.book-toc ol { columns: 2; column-gap: 2.45rem; padding-left: 1.5rem; }
+.chapter { scroll-margin-top: .5rem; }
+.chapter > header { margin-bottom: 1.15rem; }
+.chapter header h2 { margin: .22rem 0 0; line-height: 1.18; letter-spacing: -.035em; font-size: clamp(1.45rem, 4vw, 2.14rem); }
+.chapter header .book-muted { float: right; }
+.chapter p { margin: .55rem 0 .85rem; }
+.book-options li { padding-left: .3rem; }
+details { margin: .9rem 0; border: 1px solid #b5cbd8; border-radius: .45rem; }
+details > summary { cursor: pointer; padding: .65rem .85rem; font-weight: 680; }
+details[open] > summary { background: #e9f3f6; border-radius: .45rem .45rem 0 0; }
+.book-figure img { width: 100%; height: auto; display: block; }
+.book-figure p { padding-left: .85rem; }
+.book-figure ul { padding-right: .8rem; }
+.book-correction > p, .book-correction > section, .book-correction > .book-figure, .book-correction > ol { margin: .75rem .85rem; }
+.book-correction > section { border-top: 1px solid #d3e1e8; padding-top: .75rem; }
+.book-answer { font-weight: 700; }
+h3 { font-size: 1rem; margin: 0; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; padding: .6rem; background: #edf2f5; }
+@media (max-width: 600px) { .book-toc ol { columns: 1; } }
+@media print {
+  body { padding: 0; }
+  .book-cover, .book-toc, .chapter { border: 0; padding: .6rem 0; }
+  .book-cover { color: #1d2d40; background: #fff; }
+  .book-cover a, .book-cover .kicker, .book-cover .book-muted { color: #075a75; }
+  .chapter { break-before: page; }
+  .reader-link { display: none; }
+}
