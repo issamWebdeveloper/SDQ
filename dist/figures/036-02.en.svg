@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="568.3" viewBox="0 0 1120 568.3" xml:lang="en" role="img" aria-labelledby="title description">
+<title id="title">Day 09 · Splitting Read and Write Data Models</title>
+<desc id="description">8,000 writes and 40,000 reads per minute share one model.. Order writes. Dashboard and reports. PostgreSQL monolith. Cache aside. External analytics. Object storage. A. Full CQRS. B. Read replicas. C. Denormalize the write model. D. GraphQL + DataLoader</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="568.3" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#75e1f7" font-size="14" font-weight="750"><tspan x="38" y="29">DAY 09 · SCENARIO</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">Splitting Read and Write Data Models</tspan></text>
+<text fill="#38576b" font-size="17" font-weight="520"><tspan x="42" y="134">8,000 writes and 40,000 reads per minute share one model.</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M213.5 224.3C232 224.3 232 280.3 250.5 280.3"/>
+<path d="M213.5 336.3C232 336.3 232 280.3 250.5 280.3"/>
+<path d="M430.5 280.3C449 280.3 449 280.3 467.5 280.3"/>
+<path d="M647.5 280.3C666 280.3 666 280.3 684.5 280.3"/>
+<path d="M864.5 280.3C883 280.3 883 280.3 901.5 280.3"/></g>
+
+<rect x="38.5" y="176.3" width="175" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(112 186.3)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="126" y="234.3">Order writes</tspan><tspan x="126" y="254.3"></tspan></text>
+<rect x="38.5" y="288.3" width="175" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(112 298.3)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="126" y="346.3">Dashboard and</tspan><tspan x="126" y="366.3">reports</tspan></text>
+<rect x="255.5" y="232.3" width="175" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(329 242.3)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="343" y="290.3">PostgreSQL</tspan><tspan x="343" y="310.3">monolith</tspan></text>
+<rect x="472.5" y="232.3" width="175" height="96" rx="12" fill="#fbf2d9" stroke="#b49752"/>
+<g transform="translate(546 242.3)" fill="none" stroke="#8b6426" color="#8b6426" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6l3 15c1 5 13 5 14 0l3-15M10 16h8"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="300.3">Cache aside</tspan></text>
+<rect x="689.5" y="232.3" width="175" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(763 242.3)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="777" y="290.3">External</tspan><tspan x="777" y="310.3">analytics</tspan></text>
+<rect x="906.5" y="232.3" width="175" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(980 242.3)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="994" y="300.3">Object storage</tspan></text>
+<rect x="38" y="412.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="428.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="449.3">A</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="448.3">Full CQRS</tspan></text>
+<rect x="567" y="412.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="428.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="449.3">B</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="448.3">Read replicas</tspan></text>
+<rect x="38" y="481.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="497.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="518.3">C</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="517.3">Denormalize the write model</tspan></text>
+<rect x="567" y="481.3" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="497.3" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="518.3">D</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="517.3">GraphQL + DataLoader</tspan></text>
+</g>
+</svg>

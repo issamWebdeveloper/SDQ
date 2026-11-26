@@ -14,8 +14,8 @@ const copy = {
     reveal: 'Afficher la réponse', hide: 'Masquer la réponse', correction: 'Correction',
     authorChoice: 'Réponse indiquée par l’auteur', answer: 'Explication', good: 'Bonne réponse · +1 point',
     bad: 'Réponse incorrecte · 0 point', prior: 'Votre réponse enregistrée', previous: 'Question précédente',
-    next: 'Question suivante', diagram: 'Voir le schéma du livre', diagramText: 'Lire la traduction du schéma',
-    ocrNote: 'Transcription automatique des légendes.',
+    next: 'Question suivante', diagram: 'Voir le schéma',
+    expandDiagram: 'Agrandir le schéma',
     close: 'Fermer la définition', wiki: 'Lire sur Wikipédia', wikiEn: 'Lire sur Wikipédia (anglais)',
     resultsTitle: 'Vos résultats', resultsByTopic: 'Résultats par thème', resultsByDay: 'Résultats par question',
     glossaryTitle: 'Glossaire technique', glossarySearch: 'Rechercher un terme ou un sigle',
@@ -34,8 +34,8 @@ const copy = {
     reveal: 'Show answer', hide: 'Hide answer', correction: 'Answer and explanations',
     authorChoice: 'Answer marked by the author', answer: 'Explanation', good: 'Correct · +1 point',
     bad: 'Incorrect · 0 points', prior: 'Your recorded answer', previous: 'Previous question',
-    next: 'Next question', diagram: 'View the book’s diagram', diagramText: 'Read the diagram transcript',
-    ocrNote: 'Automatically transcribed labels.',
+    next: 'Next question', diagram: 'View diagram',
+    expandDiagram: 'Enlarge diagram',
     close: 'Close definition', wiki: 'Read on Wikipedia', wikiEn: 'Read on Wikipedia',
     resultsTitle: 'Your results', resultsByTopic: 'Results by topic', resultsByDay: 'Results by question',
     glossaryTitle: 'Technical glossary', glossarySearch: 'Search for a term or acronym',
@@ -303,12 +303,17 @@ function renderIndex() {
 }
 
 function figure(block) {
-  const transcript = block.transcript[language];
-  const transcriptMarkup = transcript.length ? `<details class="figure-text"><summary>${t('diagramText')}</summary>
-    <div class="prose"><p class="note">${t('ocrNote')}</p>${transcript.map(line => `<p class="list-line">${annotate(line)}</p>`).join('')}</div></details>` : '';
-  return `<details class="figure"><summary>${t('diagram')} · ${t('pages')} ${block.page}</summary><img loading="lazy" decoding="async"
-    src="figures/${esc(block.id)}.webp" width="${block.width}" height="${block.height}" alt="${esc(local(block.alt))}">
-    ${transcriptMarkup}</details>`;
+  const source = `figures/${esc(block.id)}.${language}.svg`;
+  return `<details class="figure" data-figure="${esc(block.id)}">
+    <summary>${t('diagram')} · ${t('pages')} ${block.page}</summary>
+    <div class="diagram-frame">
+      <div class="figure-viewport" tabindex="0" role="region" aria-label="${esc(local(block.alt))}">
+        <img loading="lazy" decoding="async" src="${source}" width="${block.width}" height="${block.height}" alt="${esc(local(block.alt))}">
+      </div>
+      <button type="button" class="diagram-zoom-button" data-enlarge-diagram aria-haspopup="dialog"
+        aria-controls="diagram-zoom" aria-label="${t('expandDiagram')}" title="${t('expandDiagram')}"></button>
+    </div>
+  </details>`;
 }
 
 function blockHtml(block) {
@@ -361,6 +366,9 @@ function renderCorrection(question) {
 }
 
 function renderQuestion(question) {
+  const openFigures = new Set(
+    [...main.querySelectorAll('details.figure[open]')].map(figure => figure.dataset.figure)
+  );
   main.innerHTML = `<article class="card" id="question" aria-labelledby="question-title">
     <header class="question-head">
       <div class="question-meta"><span class="eyebrow">${t('day')} ${two(question.day)} / ${two(questions.length)} · ${esc(local(topics[question.topic]))}</span>
@@ -377,6 +385,9 @@ function renderQuestion(question) {
     ${question.day > 1 ? `<a class="button" href="${href(question.day - 1)}">${t('previous')}</a>` : '<span></span>'}
     ${question.day < questions.length ? `<a class="button" href="${href(question.day + 1)}">${t('next')}</a>` : '<span></span>'}
   </nav>`;
+  for (const figure of main.querySelectorAll('details.figure')) {
+    if (openFigures.has(figure.dataset.figure)) figure.open = true;
+  }
   const form = $('#exercise');
   form.addEventListener('change', event => { draft = event.target.value; });
   form.addEventListener('click', event => {

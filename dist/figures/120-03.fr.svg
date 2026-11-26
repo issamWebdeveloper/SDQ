@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="479" viewBox="0 0 1120 479" xml:lang="fr" role="img" aria-labelledby="title description">
+<title id="title">Jour 29 · C · Exécution par DAG</title>
+<desc id="description">Planificateur. Chercheur. Le développeur attend les deux résultats. Relecteur. Résultat approuvé. Réessayer si la revue échoue. Paralléliser la planification et la recherche. Lancer le développement après les deux.. Un échec de la revue peut déclencher une nouvelle tentative bornée du développement.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="479" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">JOUR 29 · CORRIGÉ</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">C · Exécution par DAG</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M275 179C293.5 179 293.5 235 312 235"/>
+<path d="M275 291C293.5 291 293.5 235 312 235"/>
+<path d="M539 235C557.5 235 557.5 235 576 235"/>
+<path d="M803 235C821.5 235 821.5 179 840 179"/>
+<path d="M803 235C821.5 235 821.5 291 840 291"/></g>
+<g fill="none" stroke="#5c7e93" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow)"><path d="M956 339V358H428V288"/></g>
+<rect x="53" y="131" width="222" height="96" rx="12" fill="#f2ecf8" stroke="#a286bb"/>
+<g transform="translate(150 141)" fill="none" stroke="#785297" color="#785297" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="20" height="15" rx="4"/><path d="M14 8V3m-4 12h1m6 0h1m-8 4h8"/><circle cx="14" cy="3" r="1"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="199">Planificateur</tspan></text>
+<rect x="53" y="243" width="222" height="96" rx="12" fill="#f2ecf8" stroke="#a286bb"/>
+<g transform="translate(150 253)" fill="none" stroke="#785297" color="#785297" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="20" height="15" rx="4"/><path d="M14 8V3m-4 12h1m6 0h1m-8 4h8"/><circle cx="14" cy="3" r="1"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="311">Chercheur</tspan></text>
+<rect x="317" y="187" width="222" height="96" rx="12" fill="#f2ecf8" stroke="#a286bb"/>
+<g transform="translate(414 197)" fill="none" stroke="#785297" color="#785297" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="20" height="15" rx="4"/><path d="M14 8V3m-4 12h1m6 0h1m-8 4h8"/><circle cx="14" cy="3" r="1"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="428" y="245">Le développeur attend</tspan><tspan x="428" y="265">les deux résultats</tspan></text>
+<rect x="581" y="187" width="222" height="96" rx="12" fill="#f2ecf8" stroke="#a286bb"/>
+<g transform="translate(678 197)" fill="none" stroke="#785297" color="#785297" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="20" height="15" rx="4"/><path d="M14 8V3m-4 12h1m6 0h1m-8 4h8"/><circle cx="14" cy="3" r="1"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="255">Relecteur</tspan></text>
+<rect x="845" y="131" width="222" height="96" rx="12" fill="#eef1f7" stroke="#879bb7"/>
+<g transform="translate(942 141)" fill="none" stroke="#526e96" color="#526e96" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h11l5 5v19H6ZM17 2v6h5M10 13h8m-8 5h8"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="199">Résultat approuvé</tspan></text>
+<rect x="845" y="243" width="222" height="96" rx="12" fill="#fbebea" stroke="#c58a86"/>
+<g transform="translate(942 253)" fill="none" stroke="#9e4a43" color="#9e4a43" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3 26 25H2Z M14 11v6m0 4v.3"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="301">Réessayer si la revue</tspan><tspan x="956" y="321">échoue</tspan></text>
+<rect x="38" y="392" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="423" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="418">Paralléliser la planification et la recherche. Lancer le</tspan><tspan x="67" y="438">développement après les deux.</tspan></text>
+<rect x="567" y="392" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="583" cy="423" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="596" y="418">Un échec de la revue peut déclencher une nouvelle</tspan><tspan x="596" y="438">tentative bornée du développement.</tspan></text>
+</g>
+</svg>

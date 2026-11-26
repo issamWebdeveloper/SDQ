@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="342" viewBox="0 0 1120 342" xml:lang="en" role="img" aria-labelledby="title description">
+<title id="title">Day 38 · A · Chunk and embed</title>
+<desc id="description">Source document. Overlapping chunks. Embed and index chunks. Retrieve top-k. LLM with selected context. Index text once. At inference, supply only the relevant chunks.. Tune chunk size and overlap to avoid losing information at boundaries.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="342" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">DAY 38 · ANSWER</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">A · Chunk and embed</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M213.5 179C232 179 232 179 250.5 179"/>
+<path d="M430.5 179C449 179 449 179 467.5 179"/>
+<path d="M647.5 179C666 179 666 179 684.5 179"/>
+<path d="M864.5 179C883 179 883 179 901.5 179"/></g>
+
+<rect x="38.5" y="131" width="175" height="96" rx="12" fill="#eef1f7" stroke="#879bb7"/>
+<g transform="translate(112 141)" fill="none" stroke="#526e96" color="#526e96" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h11l5 5v19H6ZM17 2v6h5M10 13h8m-8 5h8"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="126" y="199">Source document</tspan></text>
+<rect x="255.5" y="131" width="175" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(329 141)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="343" y="189">Overlapping</tspan><tspan x="343" y="209">chunks</tspan></text>
+<rect x="472.5" y="131" width="175" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(546 141)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="179">Embed and index</tspan><tspan x="560" y="199">chunks</tspan><tspan x="560" y="219"></tspan></text>
+<rect x="689.5" y="131" width="175" height="96" rx="12" fill="#e9f3fa" stroke="#6299aa"/>
+<g transform="translate(763 141)" fill="none" stroke="#24677c" color="#24677c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2l12 12-12 12L2 14Z M7 14h13m-4-4 4 4-4 4"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="777" y="179">Retrieve top-k</tspan><tspan x="777" y="199"></tspan><tspan x="777" y="219"></tspan></text>
+<rect x="906.5" y="131" width="175" height="96" rx="12" fill="#f2ecf8" stroke="#a286bb"/>
+<g transform="translate(980 141)" fill="none" stroke="#785297" color="#785297" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="20" height="15" rx="4"/><path d="M14 8V3m-4 12h1m6 0h1m-8 4h8"/><circle cx="14" cy="3" r="1"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="994" y="179">LLM with</tspan><tspan x="994" y="199">selected context</tspan><tspan x="994" y="219"></tspan></text>
+<rect x="38" y="255" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="286" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="281">Index text once. At inference, supply only the relevant</tspan><tspan x="67" y="301">chunks.</tspan></text>
+<rect x="567" y="255" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="583" cy="286" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="596" y="281">Tune chunk size and overlap to avoid losing information</tspan><tspan x="596" y="301">at boundaries.</tspan></text>
+</g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="342" viewBox="0 0 1120 342" xml:lang="fr" role="img" aria-labelledby="title description">
+<title id="title">Jour 35 · C · Quadtree en mémoire</title>
+<desc id="description">Le chauffeur se déplace. Quadtree en mémoire. Supprimer et réinsérer au franchissement. Chercher dans les cellules voisines. Les zones denses créent des branches profondes et inégales.. Les franchissements fréquents ajoutent du travail de mise à jour et de rééquilibrage.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="342" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#ffd492" font-size="14" font-weight="750"><tspan x="38" y="29">JOUR 35 · AUTRE OPTION</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">C · Quadtree en mémoire</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M275 179C293.5 179 293.5 179 312 179"/>
+<path d="M539 179C557.5 179 557.5 179 576 179"/>
+<path d="M803 179C821.5 179 821.5 179 840 179"/></g>
+
+<rect x="53" y="131" width="222" height="96" rx="12" fill="#f8f0dc" stroke="#b59a5b"/>
+<g transform="translate(150 141)" fill="none" stroke="#86601c" color="#86601c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2 5 16h8l-1 10 11-15h-8Z"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="189">Le chauffeur se</tspan><tspan x="164" y="209">déplace</tspan></text>
+<rect x="317" y="131" width="222" height="96" rx="12" fill="#f0edfa" stroke="#9a86bd"/>
+<g transform="translate(414 141)" fill="none" stroke="#67509d" color="#67509d" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="22" height="22" rx="1"/><path d="M3 14h22M14 3v22M14 8.5h11M19.5 3v11"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="428" y="199">Quadtree en mémoire</tspan></text>
+<rect x="581" y="131" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(678 141)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="189">Supprimer et réinsérer</tspan><tspan x="692" y="209">au franchissement</tspan></text>
+<rect x="845" y="131" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(942 141)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="189">Chercher dans les</tspan><tspan x="956" y="209">cellules voisines</tspan></text>
+<rect x="38" y="255" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="286" r="4" fill="#8b6224"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="281">Les zones denses créent des branches profondes et</tspan><tspan x="67" y="301">inégales.</tspan></text>
+<rect x="567" y="255" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="583" cy="286" r="4" fill="#8b6224"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="596" y="281">Les franchissements fréquents ajoutent du travail de</tspan><tspan x="596" y="301">mise à jour et de rééquilibrage.</tspan></text>
+</g>
+</svg>

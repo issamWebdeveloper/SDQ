@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="502.6" viewBox="0 0 1120 502.6" xml:lang="fr" role="img" aria-labelledby="title description">
+<title id="title">Jour 40 · Déporter un traitement lourd hors du thread principal</title>
+<desc id="description">Pendant l’analyse du fichier, la page se bloque pendant environ quatre secondes.. Tableau de bord React. Import CSV. Analyse et validation sur le thread principal. Enregistrer les lignes. A. requestIdleCallback et découpage temporel. B. Web Worker. C. SharedArrayBuffer + Atomics. D. WebAssembly</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="502.6" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="147.3" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#75e1f7" font-size="14" font-weight="750"><tspan x="38" y="29">JOUR 40 · SCÉNARIO</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">Déporter un traitement lourd hors du thread</tspan><tspan x="38" y="122.3">principal</tspan></text>
+<text fill="#38576b" font-size="17" font-weight="520"><tspan x="42" y="180.3">Pendant l’analyse du fichier, la page se bloque pendant environ quatre secondes.</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M275 270.6C293.5 270.6 293.5 270.6 312 270.6"/>
+<path d="M539 270.6C557.5 270.6 557.5 270.6 576 270.6"/>
+<path d="M803 270.6C821.5 270.6 821.5 270.6 840 270.6"/></g>
+
+<rect x="53" y="222.6" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(150 232.6)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="290.6">Tableau de bord React</tspan></text>
+<rect x="317" y="222.6" width="222" height="96" rx="12" fill="#eef1f7" stroke="#879bb7"/>
+<g transform="translate(414 232.6)" fill="none" stroke="#526e96" color="#526e96" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h11l5 5v19H6ZM17 2v6h5M10 13h8m-8 5h8"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="428" y="290.6">Import CSV</tspan></text>
+<rect x="581" y="222.6" width="222" height="96" rx="12" fill="#fbebea" stroke="#c58a86"/>
+<g transform="translate(678 232.6)" fill="none" stroke="#9e4a43" color="#9e4a43" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3 26 25H2Z M14 11v6m0 4v.3"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="280.6">Analyse et validation</tspan><tspan x="692" y="300.6">sur le thread principal</tspan></text>
+<rect x="845" y="222.6" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(942 232.6)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="290.6">Enregistrer les lignes</tspan></text>
+<rect x="38" y="346.6" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="362.6" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="383.6">A</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="382.6">requestIdleCallback et découpage temporel</tspan></text>
+<rect x="567" y="346.6" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="362.6" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="383.6">B</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="382.6">Web Worker</tspan></text>
+<rect x="38" y="415.6" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="431.6" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="452.6">C</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="451.6">SharedArrayBuffer + Atomics</tspan></text>
+<rect x="567" y="415.6" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="431.6" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="452.6">D</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="451.6">WebAssembly</tspan></text>
+</g>
+</svg>

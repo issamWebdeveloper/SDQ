@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="454" viewBox="0 0 1120 454" xml:lang="en" role="img" aria-labelledby="title description">
+<title id="title">Day 31 · B · Active-passive with replicas</title>
+<desc id="description">US clients. EU clients. US stack. EU read path. US primary. EU read replica. Keep writes on the primary. Serve most European reads locally.. Replicate across regions and promote the replica for regional failover.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="454" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">DAY 31 · ANSWER</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">B · Active-passive with replicas</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M407 179C425.5 179 425.5 179 444 179"/>
+<path d="M407 291C425.5 291 425.5 291 444 291"/>
+<path d="M671 179C689.5 179 689.5 179 708 179"/>
+<path d="M671 291C689.5 291 689.5 291 708 291"/>
+<path d="M824 227V238"/></g>
+
+<rect x="185" y="131" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(282 141)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="296" y="199">US clients</tspan></text>
+<rect x="185" y="243" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(282 253)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="296" y="311">EU clients</tspan></text>
+<rect x="449" y="131" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(546 141)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="199">US stack</tspan></text>
+<rect x="449" y="243" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(546 253)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="311">EU read path</tspan></text>
+<rect x="713" y="131" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(810 141)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="824" y="199">US primary</tspan></text>
+<rect x="713" y="243" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(810 253)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="824" y="311">EU read replica</tspan></text>
+<rect x="38" y="367" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="398" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="393">Keep writes on the primary. Serve most European</tspan><tspan x="67" y="413">reads locally.</tspan></text>
+<rect x="567" y="367" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="583" cy="398" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="596" y="393">Replicate across regions and promote the replica for</tspan><tspan x="596" y="413">regional failover.</tspan></text>
+</g>
+</svg>

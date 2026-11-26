@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="454" viewBox="0 0 1120 454" xml:lang="en" role="img" aria-labelledby="title description">
+<title id="title">Day 06 · A · SETNX + TTL + fencing token</title>
+<desc id="description">Paused instance · token 42. Current instance · token 43. Redis SETNX + short TTL. Validate fencing token. Downstream resource. Every successful lock acquisition receives an increasing token.. After token 43, the destination rejects writes carrying token 42.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="454" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">DAY 06 · ANSWER</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">A · SETNX + TTL + fencing token</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M275 179C293.5 179 293.5 235 312 235"/>
+<path d="M275 291C293.5 291 293.5 235 312 235"/>
+<path d="M539 235C557.5 235 557.5 235 576 235"/>
+<path d="M803 235C821.5 235 821.5 235 840 235"/></g>
+
+<rect x="53" y="131" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(150 141)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="189">Paused instance ·</tspan><tspan x="164" y="209">token 42</tspan></text>
+<rect x="53" y="243" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(150 253)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="301">Current instance ·</tspan><tspan x="164" y="321">token 43</tspan></text>
+<rect x="317" y="187" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(414 197)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="428" y="245">Redis SETNX + short</tspan><tspan x="428" y="265">TTL</tspan></text>
+<rect x="581" y="187" width="222" height="96" rx="12" fill="#e9f3fa" stroke="#6299aa"/>
+<g transform="translate(678 197)" fill="none" stroke="#24677c" color="#24677c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2l12 12-12 12L2 14Z M7 14h13m-4-4 4 4-4 4"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="245">Validate fencing token</tspan><tspan x="692" y="265"></tspan></text>
+<rect x="845" y="187" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(942 197)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="255">Downstream resource</tspan></text>
+<rect x="38" y="367" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="398" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="393">Every successful lock acquisition receives an</tspan><tspan x="67" y="413">increasing token.</tspan></text>
+<rect x="567" y="367" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="583" cy="398" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="596" y="393">After token 43, the destination rejects writes</tspan><tspan x="596" y="413">carrying token 42.</tspan></text>
+</g>
+</svg>

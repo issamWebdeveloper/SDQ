@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="614.6" viewBox="0 0 1120 614.6" xml:lang="en" role="img" aria-labelledby="title description">
+<title id="title">Day 23 · Feed Fanout for Celebrity Accounts</title>
+<desc id="description">One account has two million followers. Feed latency rises from 20 ms to 4 s.. Mobile client. Feed service. Post service. Read replicas. Followers’ Redis feeds. A. Fanout on write. B. Fanout on read. C. Hybrid fanout. D. Materialized feed</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="614.6" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="147.3" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#75e1f7" font-size="14" font-weight="750"><tspan x="38" y="29">DAY 23 · SCENARIO</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">Feed Fanout for Celebrity Accounts</tspan><tspan x="38" y="122.3"></tspan></text>
+<text fill="#38576b" font-size="17" font-weight="520"><tspan x="42" y="180.3">One account has two million followers. Feed latency rises from 20 ms to 4 s.</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M275 326.6C293.5 326.6 293.5 326.6 312 326.6"/>
+<path d="M539 326.6C557.5 326.6 557.5 270.6 576 270.6"/>
+<path d="M539 326.6C557.5 326.6 557.5 382.6 576 382.6"/>
+<path d="M803 270.6C821.5 270.6 821.5 326.6 840 326.6"/>
+<path d="M803 382.6C821.5 382.6 821.5 326.6 840 326.6"/></g>
+
+<rect x="53" y="278.6" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(150 288.6)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="14" height="24" rx="3"/><path d="M12 5h4m-3 18h2"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="346.6">Mobile client</tspan></text>
+<rect x="317" y="278.6" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(414 288.6)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="428" y="336.6">Feed service</tspan><tspan x="428" y="356.6"></tspan></text>
+<rect x="581" y="222.6" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(678 232.6)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="290.6">Post service</tspan></text>
+<rect x="581" y="334.6" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(678 344.6)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="402.6">Read replicas</tspan></text>
+<rect x="845" y="278.6" width="222" height="96" rx="12" fill="#fbf2d9" stroke="#b49752"/>
+<g transform="translate(942 288.6)" fill="none" stroke="#8b6426" color="#8b6426" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6l3 15c1 5 13 5 14 0l3-15M10 16h8"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="346.6">Followers’ Redis feeds</tspan></text>
+<rect x="38" y="458.6" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="474.6" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="495.6">A</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="494.6">Fanout on write</tspan></text>
+<rect x="567" y="458.6" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="474.6" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="495.6">B</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="494.6">Fanout on read</tspan></text>
+<rect x="38" y="527.6" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="51" y="543.6" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="66" y="564.6">C</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="94" y="563.6">Hybrid fanout</tspan></text>
+<rect x="567" y="527.6" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<rect x="580" y="543.6" width="30" height="30" rx="6" fill="#236c84" stroke="none"/><text fill="#ffffff" font-size="16" font-weight="750" text-anchor="middle"><tspan x="595" y="564.6">D</tspan></text>
+<text fill="#193245" font-size="17" font-weight="600"><tspan x="623" y="563.6">Materialized feed</tspan></text>
+</g>
+</svg>

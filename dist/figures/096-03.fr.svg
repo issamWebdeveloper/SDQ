@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="516" viewBox="0 0 1120 516" xml:lang="fr" role="img" aria-labelledby="title description">
+<title id="title">Jour 23 · C · Diffusion hybride</title>
+<desc id="description">Comptes ordinaires · diffusion à l’écriture. Nouvelle publication. Worker de diffusion. Fils des abonnés en cache. Comptes très suivis · diffusion à la lecture. Requête de fil. Fusionner les publications récentes. Fil combiné. Éviter des millions d’écritures par publication très suivie tout en gardant des lectures rapides.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="516" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">JOUR 23 · CORRIGÉ</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">C · Diffusion hybride</tspan></text>
+<text fill="#226e57" font-size="16" font-weight="720"><tspan x="38" y="142">Comptes ordinaires · diffusion à l’écriture</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M407 204C425.5 204 425.5 204 444 204"/>
+<path d="M671 204C689.5 204 689.5 204 708 204"/></g>
+
+<rect x="185" y="156" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(282 166)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="296" y="224">Nouvelle publication</tspan></text>
+<rect x="449" y="156" width="222" height="96" rx="12" fill="#f0edfa" stroke="#9a86bd"/>
+<g transform="translate(546 166)" fill="none" stroke="#67509d" color="#67509d" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="6" height="14" rx="1"/><rect x="11" y="7" width="6" height="14" rx="1"/><rect x="20" y="7" width="6" height="14" rx="1"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="224">Worker de diffusion</tspan></text>
+<rect x="713" y="156" width="222" height="96" rx="12" fill="#fbf2d9" stroke="#b49752"/>
+<g transform="translate(810 166)" fill="none" stroke="#8b6426" color="#8b6426" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6l3 15c1 5 13 5 14 0l3-15M10 16h8"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="824" y="214">Fils des abonnés en</tspan><tspan x="824" y="234">cache</tspan></text>
+<text fill="#226e57" font-size="16" font-weight="720"><tspan x="38" y="291">Comptes très suivis · diffusion à la lecture</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M407 353C425.5 353 425.5 353 444 353"/>
+<path d="M671 353C689.5 353 689.5 353 708 353"/></g>
+
+<rect x="185" y="305" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(282 315)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="14" height="24" rx="3"/><path d="M12 5h4m-3 18h2"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="296" y="373">Requête de fil</tspan></text>
+<rect x="449" y="305" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(546 315)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="363">Fusionner les</tspan><tspan x="560" y="383">publications récentes</tspan></text>
+<rect x="713" y="305" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(810 315)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="824" y="373">Fil combiné</tspan></text>
+<rect x="38" y="429" width="1044" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="460" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="465">Éviter des millions d’écritures par publication très suivie tout en gardant des lectures rapides.</tspan></text>
+</g>
+</svg>

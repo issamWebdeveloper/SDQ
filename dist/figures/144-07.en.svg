@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="342" viewBox="0 0 1120 342" xml:lang="en" role="img" aria-labelledby="title description">
+<title id="title">Day 35 · D · H3 hexagonal grid</title>
+<desc id="description">Driver location update. H3 cell and neighbors. Redis set per cell. Filter by distance. Nearby drivers. Read the target cell and its neighbors for a proximity search.. Use geographic distance for the final result after candidate retrieval.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="342" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">DAY 35 · ANSWER</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">D · H3 hexagonal grid</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M213.5 179C232 179 232 179 250.5 179"/>
+<path d="M430.5 179C449 179 449 179 467.5 179"/>
+<path d="M647.5 179C666 179 666 179 684.5 179"/>
+<path d="M864.5 179C883 179 883 179 901.5 179"/></g>
+
+<rect x="38.5" y="131" width="175" height="96" rx="12" fill="#f8f0dc" stroke="#b59a5b"/>
+<g transform="translate(112 141)" fill="none" stroke="#86601c" color="#86601c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2 5 16h8l-1 10 11-15h-8Z"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="126" y="189">Driver location</tspan><tspan x="126" y="209">update</tspan></text>
+<rect x="255.5" y="131" width="175" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(329 141)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2l6 3v6l-6 3-6-3V5ZM8 11l6 3v6l-6 3-6-3v-6Zm12 0 6 3v6l-6 3-6-3v-6Z"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="343" y="189">H3 cell and</tspan><tspan x="343" y="209">neighbors</tspan></text>
+<rect x="472.5" y="131" width="175" height="96" rx="12" fill="#fbf2d9" stroke="#b49752"/>
+<g transform="translate(546 141)" fill="none" stroke="#8b6426" color="#8b6426" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6l3 15c1 5 13 5 14 0l3-15M10 16h8"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="189">Redis set per cell</tspan><tspan x="560" y="209"></tspan></text>
+<rect x="689.5" y="131" width="175" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(763 141)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="777" y="189">Filter by distance</tspan><tspan x="777" y="209"></tspan></text>
+<rect x="906.5" y="131" width="175" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(980 141)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="14" height="24" rx="3"/><path d="M12 5h4m-3 18h2"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="994" y="189">Nearby drivers</tspan><tspan x="994" y="209"></tspan></text>
+<rect x="38" y="255" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="286" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="281">Read the target cell and its neighbors for a proximity</tspan><tspan x="67" y="301">search.</tspan></text>
+<rect x="567" y="255" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="583" cy="286" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="596" y="281">Use geographic distance for the final result after</tspan><tspan x="596" y="301">candidate retrieval.</tspan></text>
+</g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="516" viewBox="0 0 1120 516" xml:lang="en" role="img" aria-labelledby="title description">
+<title id="title">Day 49 · D · Partition by date, cluster by customer</title>
+<desc id="description">Before · scan broadly. Date and customer filter. Read a broad table range. High scanned volume. After · partition and cluster. Same query. Prune date partitions. Skip unrelated customer blocks. Read the matching slice. Partition pruning reduces the dates scanned; clustering reduces the blocks scanned within a date.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="516" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">DAY 49 · ANSWER</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">D · Partition by date, cluster by customer</tspan></text>
+<text fill="#226e57" font-size="16" font-weight="720"><tspan x="38" y="142">Before · scan broadly</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M407 204C425.5 204 425.5 204 444 204"/>
+<path d="M671 204C689.5 204 689.5 204 708 204"/></g>
+
+<rect x="185" y="156" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(282 166)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="296" y="214">Date and customer</tspan><tspan x="296" y="234">filter</tspan></text>
+<rect x="449" y="156" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(546 166)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="214">Read a broad table</tspan><tspan x="560" y="234">range</tspan></text>
+<rect x="713" y="156" width="222" height="96" rx="12" fill="#fbebea" stroke="#c58a86"/>
+<g transform="translate(810 166)" fill="none" stroke="#9e4a43" color="#9e4a43" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3 26 25H2Z M14 11v6m0 4v.3"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="824" y="224">High scanned volume</tspan></text>
+<text fill="#226e57" font-size="16" font-weight="720"><tspan x="38" y="291">After · partition and cluster</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M275 353C293.5 353 293.5 353 312 353"/>
+<path d="M539 353C557.5 353 557.5 353 576 353"/>
+<path d="M803 353C821.5 353 821.5 353 840 353"/></g>
+
+<rect x="53" y="305" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(150 315)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="373">Same query</tspan></text>
+<rect x="317" y="305" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(414 315)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="22" height="22" rx="1"/><path d="M3 14h22M14 3v22"/><circle cx="19.5" cy="8.5" r="2" fill="currentColor" stroke="none"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="428" y="363">Prune date partitions</tspan><tspan x="428" y="383"></tspan></text>
+<rect x="581" y="305" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(678 315)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="22" height="22" rx="1"/><path d="M3 14h22M14 3v22"/><circle cx="19.5" cy="8.5" r="2" fill="currentColor" stroke="none"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="363">Skip unrelated</tspan><tspan x="692" y="383">customer blocks</tspan></text>
+<rect x="845" y="305" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(942 315)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="363">Read the matching slice</tspan><tspan x="956" y="383"></tspan></text>
+<rect x="38" y="429" width="1044" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="460" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="465">Partition pruning reduces the dates scanned; clustering reduces the blocks scanned within a date.</tspan></text>
+</g>
+</svg>

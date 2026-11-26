@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="516" viewBox="0 0 1120 516" xml:lang="en" role="img" aria-labelledby="title description">
+<title id="title">Day 10 · B · Orchestrated saga</title>
+<desc id="description">Checkout sequence. CheckoutSaga. Create order. Charge payment. Inventory fails. Compensation after failure. Failure detected. Refund payment. Cancel order. The orchestrator persists each step and triggers its registered compensation.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="516" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">DAY 10 · ANSWER</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">B · Orchestrated saga</tspan></text>
+<text fill="#226e57" font-size="16" font-weight="720"><tspan x="38" y="142">Checkout sequence</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M275 204C293.5 204 293.5 204 312 204"/>
+<path d="M539 204C557.5 204 557.5 204 576 204"/>
+<path d="M803 204C821.5 204 821.5 204 840 204"/></g>
+
+<rect x="53" y="156" width="222" height="96" rx="12" fill="#e9f3fa" stroke="#6299aa"/>
+<g transform="translate(150 166)" fill="none" stroke="#24677c" color="#24677c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2l12 12-12 12L2 14Z M7 14h13m-4-4 4 4-4 4"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="224">CheckoutSaga</tspan></text>
+<rect x="317" y="156" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(414 166)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="428" y="224">Create order</tspan></text>
+<rect x="581" y="156" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(678 166)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="214">Charge payment</tspan><tspan x="692" y="234"></tspan></text>
+<rect x="845" y="156" width="222" height="96" rx="12" fill="#fbebea" stroke="#c58a86"/>
+<g transform="translate(942 166)" fill="none" stroke="#9e4a43" color="#9e4a43" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3 26 25H2Z M14 11v6m0 4v.3"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="224">Inventory fails</tspan></text>
+<text fill="#226e57" font-size="16" font-weight="720"><tspan x="38" y="291">Compensation after failure</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M407 353C425.5 353 425.5 353 444 353"/>
+<path d="M671 353C689.5 353 689.5 353 708 353"/></g>
+
+<rect x="185" y="305" width="222" height="96" rx="12" fill="#f8f0dc" stroke="#b59a5b"/>
+<g transform="translate(282 315)" fill="none" stroke="#86601c" color="#86601c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2 5 16h8l-1 10 11-15h-8Z"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="296" y="373">Failure detected</tspan></text>
+<rect x="449" y="305" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(546 315)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="560" y="363">Refund payment</tspan><tspan x="560" y="383"></tspan></text>
+<rect x="713" y="305" width="222" height="96" rx="12" fill="#e9f5f1" stroke="#75a696"/>
+<g transform="translate(810 315)" fill="none" stroke="#23745f" color="#23745f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="20" height="18" rx="3"/><path d="M10 10l-4 4 4 4m8-8 4 4-4 4m-3-9-2 10"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="824" y="373">Cancel order</tspan></text>
+<rect x="38" y="429" width="1044" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="460" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="465">The orchestrator persists each step and triggers its registered compensation.</tspan></text>
+</g>
+</svg>

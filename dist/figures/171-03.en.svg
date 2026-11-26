@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="566" viewBox="0 0 1120 566" xml:lang="en" role="img" aria-labelledby="title description">
+<title id="title">Day 42 · C · Episodic memory with summaries</title>
+<desc id="description">Conversation. Agent. Recent turns in context. Structured episode summaries. Long-term facts. LLM with relevant memory. Keep recent turns verbatim and summarize older episodes into structured records.. Retrieve relevant episodes and tie them to the current task.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10 3.5 5Z" fill="#5c7e93"/></marker></defs>
+<rect x="0" y="0" width="1120" height="566" rx="0" fill="#f2f7fa" stroke="none"/>
+<rect x="0" y="0" width="1120" height="101" rx="0" fill="#102637" stroke="none"/>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text fill="#8defc9" font-size="14" font-weight="750"><tspan x="38" y="29">DAY 42 · ANSWER</tspan></text>
+<text fill="#f4fafc" font-size="37" font-weight="730"><tspan x="38" y="76">C · Episodic memory with summaries</tspan></text>
+
+<g fill="none" stroke="#5c7e93" stroke-linecap="round" stroke-width="2" marker-end="url(#arrow)"><path d="M275 291C293.5 291 293.5 291 312 291"/>
+<path d="M539 291C557.5 291 557.5 179 576 179"/>
+<path d="M539 291C557.5 291 557.5 291 576 291"/>
+<path d="M539 291C557.5 291 557.5 403 576 403"/>
+<path d="M803 179C821.5 179 821.5 291 840 291"/>
+<path d="M803 291C821.5 291 821.5 291 840 291"/>
+<path d="M803 403C821.5 403 821.5 291 840 291"/></g>
+
+<rect x="53" y="243" width="222" height="96" rx="12" fill="#edf6ff" stroke="#568eb6"/>
+<g transform="translate(150 253)" fill="none" stroke="#236b9b" color="#236b9b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="24" height="16" rx="2"/><path d="M14 20v4m-6 0h12"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="164" y="311">Conversation</tspan></text>
+<rect x="317" y="243" width="222" height="96" rx="12" fill="#f2ecf8" stroke="#a286bb"/>
+<g transform="translate(414 253)" fill="none" stroke="#785297" color="#785297" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="20" height="15" rx="4"/><path d="M14 8V3m-4 12h1m6 0h1m-8 4h8"/><circle cx="14" cy="3" r="1"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="428" y="311">Agent</tspan></text>
+<rect x="581" y="131" width="222" height="96" rx="12" fill="#eef1f7" stroke="#879bb7"/>
+<g transform="translate(678 141)" fill="none" stroke="#526e96" color="#526e96" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h11l5 5v19H6ZM17 2v6h5M10 13h8m-8 5h8"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="189">Recent turns in</tspan><tspan x="692" y="209">context</tspan></text>
+<rect x="581" y="243" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(678 253)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="301">Structured episode</tspan><tspan x="692" y="321">summaries</tspan></text>
+<rect x="581" y="355" width="222" height="96" rx="12" fill="#e7f1fc" stroke="#7398bb"/>
+<g transform="translate(678 365)" fill="none" stroke="#345c85" color="#345c85" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="6" rx="10" ry="4"/><path d="M4 6v16c0 5 20 5 20 0V6M4 14c0 5 20 5 20 0"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="692" y="413">Long-term facts</tspan><tspan x="692" y="433"></tspan></text>
+<rect x="845" y="243" width="222" height="96" rx="12" fill="#f2ecf8" stroke="#a286bb"/>
+<g transform="translate(942 253)" fill="none" stroke="#785297" color="#785297" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="20" height="15" rx="4"/><path d="M14 8V3m-4 12h1m6 0h1m-8 4h8"/><circle cx="14" cy="3" r="1"/></g>
+<text fill="#193245" font-size="16" font-weight="600" text-anchor="middle"><tspan x="956" y="301">LLM with relevant</tspan><tspan x="956" y="321">memory</tspan></text>
+<rect x="38" y="479" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="54" cy="510" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="67" y="505">Keep recent turns verbatim and summarize older</tspan><tspan x="67" y="525">episodes into structured records.</tspan></text>
+<rect x="567" y="479" width="515" height="62" rx="9" fill="#ffffff" stroke="#c2d2dd"/>
+<circle cx="583" cy="510" r="4" fill="#226e57"/>
+<text fill="#193245" font-size="16" font-weight="600"><tspan x="596" y="505">Retrieve relevant episodes and tie them to the</tspan><tspan x="596" y="525">current task.</tspan></text>
+</g>
+</svg>
